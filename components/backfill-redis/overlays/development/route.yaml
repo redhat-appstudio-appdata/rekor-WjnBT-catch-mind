@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: backfill-redis
     app.kubernetes.io/part-of: rekor
-  name: backfill-redis8y00
+  name: backfill-redissgeg
 spec:
   port:
     targetPort: 8000
