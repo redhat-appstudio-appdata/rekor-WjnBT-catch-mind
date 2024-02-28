@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: backfill-redis
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor/backfill-redis@sha256:aac9c4d61cec2233108235192fe5812ece7a6cd7dcad41dcdcc025faf32d4c06
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor/backfill-redis@sha256:3e1e8064c4e742702eeabf9c04c0b1f34058e7a44a3dcb3d84cfcb4b3564c3ab
         imagePullPolicy: Always
         name: container-image
         ports:
