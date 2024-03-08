@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rekor-cli
     app.kubernetes.io/part-of: rekor
-  name: rekor-clix3jf
+  name: rekor-cli4bcw
 spec:
   port:
     targetPort: 8000
