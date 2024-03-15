@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rekor-server
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor/rekor-server@sha256:e4a5dd78a96686ba66b5723dc3516a2f2b717162aabff42a969dece606ca43c9
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/rekor/rekor-server@sha256:a2075576589bec3c4544db4368732cb1388e8f5a3cb2a739d943cee601e64b74
         imagePullPolicy: Always
         name: container-image
         ports:
